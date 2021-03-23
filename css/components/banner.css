@@ -15,10 +15,13 @@
 }
 
 .banner .box {
+     padding: 20px 20px 20px 20px;
+
     margin-bottom: 40px;
 }
 
 .banner .navigation {
+    padding-bottom: 40px;
     display: flex;
     justify-content: space-around;
 }

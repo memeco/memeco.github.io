@@ -1,4 +1,5 @@
 #box {
+ 
     display: inline-block;
     background-color: #3A4042;
     width: 630px;
@@ -7,6 +8,7 @@
     padding: 42px 0;
 
 }
-#box h1 {
+#box h2 {
     margin-bottom: 28px;
+    padding-bottom: 20px;
 }
