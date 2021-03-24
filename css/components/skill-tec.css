@@ -10,3 +10,10 @@
 .skill-tec .icon {
     margin-right: 25px;
 }
+
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
