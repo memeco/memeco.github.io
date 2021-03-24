@@ -3,10 +3,10 @@
     display: inline-block;
     height: 60px;
     line-height: 60px;
-    padding-left: 20px;
-    padding-top: 18px;
-    padding-bottom: 18px;
-    padding-right: 20px;
+    padding-left: 10x;
+    padding-top: 9px;
+    padding-bottom: 9x;
+    padding-right: 10px;
     box-shadow: 5px 5px 0 #000;
     transition: transform 100ms linear, opacity 200ms ease-in-out;
 }
