@@ -1,0 +1,16 @@
+.main-button { 
+    background-color: #F25A70; 
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 10x;
+    padding-top: 9px;
+    padding-bottom: 9x;
+    padding-right: 10px;
+    box-shadow: 5px 5px 0 #000;
+    transition: transform 100ms linear, opacity 200ms ease-in-out;
+}
+.main-button:hover {
+    transform: scale(1.08);
+    opacity: 0.5;
+}

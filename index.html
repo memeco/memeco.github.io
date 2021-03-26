@@ -8,52 +8,53 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;500&family=Press+Start+2P&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/components/banner.css">
+    <link rel="stylesheet" href="css/components/main-banner.css">
     <link rel="stylesheet" href="css/components/main-title.css">
-    <link rel="stylesheet" href="css/components/subtitle.css">
-    <link rel="stylesheet" href="css/components/box.css">
-    <link rel="stylesheet" href="css/components/button.css">
-    <link rel="stylesheet" href="css/components/section.css">
+    <link rel="stylesheet" href="css/components/main-subtitle.css">
+    <link rel="stylesheet" href="css/components/main-box.css">
+    <link rel="stylesheet" href="css/components/main-button.css">
+    <link rel="stylesheet" href="css/components/main-section.css">
     <link rel="stylesheet" href="css/components/skill-tec.css">
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/wrapper-skill.css">
     <link rel="stylesheet" href="css/components/card-project.css">
-
+    <link rel="stylesheet" href="css/components/wrapper-card.css">
+    <link rel="stylesheet" href="css/components/main-action.css">
     
 
     <title>Emerson Marques Pedro CV</title>
 </head>
 <body>
-    <header>
+    <header class="main-header">
         <img src="assets/img/logo.png" alt="Emerson Marques Pedro">
 
         <nav>
-            <a href="" lang="en">Skills</a>
-            <a href="">Projetos</a>
-            <a href="">Sobre</a>
-            <a href="">Contato</a>
-            <a class="button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
-        </nav>
+            <a class="main-action" href="" lang="en">Skills</a>
+            <a hclass="main-action" href="">Projetos</a>
+            <a class="main-action" href="">Sobre</a>
+            <a class="main-action" href="">Contato</a>
+            <a class="main-button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
+     </nav>
     </header>
    
-     <section class="banner"> 
+     <section class="main-banner"> 
     
          <center>
     <div class="wrapper">  
-         <div id="box"> 
+         <div class="main-box"> 
              <h2 class="main-title">Emerson Marques Pedro</h2>
-             <h3 class="subtitle">Front-End Developer, Data Scientist, Civic Hacker and Sociologist</h3>
+             <h3 class="main-subtitle">Front-End Developer, Data Scientist, Civic Hacker and Sociologist</h3>
             </div>
 
             <div class="navigation">
-                <a class="button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
-                <a class="button" href="">Contato</a>
+                <a class="main-button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
+                <a class="main-button" href="">Contato</a>
             </div>
         </div>
      </section>
     </center>
 
-     <section class="section">
+     <section class="main-section">
         <h2 class="main-title -second">Skills</h2>
     <div class="wrapper-skill">
 
@@ -107,19 +108,22 @@
 </div>
     
     </section>
-    <section class="section -bgBlack">
+    <section class="main-section -bgBlack -bdFirst">
         <h2 class="main-title -second">Projetos</h2>
 
-        <figure class="card-project">
-            <img class="logo" src="assets/img/hackagenda.png"
-                <figcaption>HackAgenda</figcaption>
-            </figure>
+        <div class="wrapper-card">
 
+                <a href="https://www.hackagenda.com.br" target="_blank">
+                    <figure class="card-project">
+            <img class="logo" src="assets/img/hackagenda.png"
+            </figure>
+            </a>
+                <a href="https://www.firedlabs.com" target="_blank">
             <figure class="card-project">
                 <img class="logo" src="assets/img/logo-firedlabs.png"
-                    <figcaption>FiredLabs</figcaption>
-                </figure>
-
-    </sectio>
+                    
+                </figure></a>
+</div>
+    </section>
 </body>
 </html>
