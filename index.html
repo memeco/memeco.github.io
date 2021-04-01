@@ -26,7 +26,9 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
-
+    <link rel="stylesheet" href="css/components/main-label.css">
+    <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
     <title>Emerson Marques Pedro CV</title>
 </head>
 <body>
@@ -34,10 +36,10 @@
         <img src="assets/img/logo.png" alt="Emerson Marques Pedro">
 
         <nav>
-            <a class="main-action" href="" lang="en">Skills</a>
-            <a hclass="main-action" href="">Projetos</a>
-            <a class="main-action" href="">Sobre</a>
-            <a class="main-action" href="">Contato</a>
+            <a class="main-action" href="#Skills" lang="en">Skills</a>
+            <a class="main-action" href="#Projetos">Projetos</a>
+            <a class="main-action" href="#Sobre">Sobre</a>
+            <a class="main-action" href="#Contato">Contato</a>
             <a class="main-button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
      </nav>
     </header>
@@ -53,14 +55,14 @@
 
             <div class="navigation">
                 <a class="main-button" href="assets/Emerson_Marques_Pedro_CV_2021-ptbr-laudo.pdf" lang="en">Download CV</a>
-                <a class="main-button" href="">Contato</a>
+                <a class="main-button" href="#Contato">Contato</a>
             </div>
         </div>
      </section>
     </center>
 
      <section class="main-section">
-        <h2 class="main-title -second">Skills</h2>
+        <h2 class="main-title -second" id="Skills">Skills</h2>
     <div class="wrapper-skill">
 
         <article class="skill-tec">
@@ -114,7 +116,7 @@
     
     </section>
     <section class="main-section -bgBlack -bdFirst">
-        <h2 class="main-title -second">Projetos</h2>
+        <h2 class="main-title -second" id="Projetos">Projetos</h2>
 
         <div class="wrapper-card">
 
@@ -132,7 +134,7 @@
 
     </section>
     <section class="main-section -bgSecond -bdBlack">
-        <h2 class="main-title -second">Sobre</h2>
+        <h2 class="main-title -second" id="Sobre">Sobre</h2>
         <section class="main-carousel">
             <button class="button-arrow -left"><span class="content">Voltar</span></button>
         <div class="items">
@@ -141,25 +143,25 @@
             <figure class="node-card">
             <figcaption class="title">2013</figcaption>
             <div class="logo">
-                <img src="assets/img/hackagenda.png" alt="Logo do HackAgenda"></div>
+                <a href="https://www.hackagenda.com.br" target="_blank"><img src="assets/img/hackagenda.png" alt="Logo do HackAgenda"></a></div>
         </figure>
 
         <figure class="node-card">
             <figcaption class="title">2014</figcaption>
             <div class="logo">
-                <img src="assets/img/Controladoria Geral do Município.png" alt="Logo do HackAgenda"></div>
+                <a href="https://www.prefeitura.sp.gov.br/cidade/secretarias/controladoria_geral/" target="_blank"><img src="assets/img/Controladoria Geral do Município.png" alt="Logo da CGM-SP"></a></div>
         </figure>
 
         <figure class="node-card">
             <figcaption class="title">2015</figcaption>
             <div class="logo">
-                <img src="assets/img/logo_tcesp.png" alt="Logo do HackAgenda"></div>
+                <a href="https://www.tce.sp.gov.br/" target="_blank"><img src="assets/img/logo_tcesp.png" alt="Logo do TCE-SP"></a></div>
         </figure>
 
         <figure class="node-card">
             <figcaption class="title">2016</figcaption>
             <div class="logo">
-                <img src="assets/img/hackagenda.png" alt="Logo do HackAgenda"></div>
+                <a href="https://www.hackagenda.com.br" target="_blank"><img src="assets/img/hackagenda.png" alt="Logo do HackAgenda"></a>
         </figure>
     </div></div>
         <button class="button-arrow -right"><span class="content">Avançar</span></button>
@@ -169,6 +171,12 @@
         Sociólogo, hacker cívico, cientista de dados e desenvolvedor front-end, Emerson está sempre buscando mais conhecimento e participando de eventos de tecnologia/hackers.
         </p>
     </section>
+    
+    <form class="main-form">
+        <legend class="main-title -second" id="Contato">Contato</legend>
+        <label class="main-label" for="name">Envie um email para <a href="mailto:emerson.pedro@alumni.usp.br?subject=Email do Github">emerson.pedro@alumni.usp.br</a> com sua proposta</label>
+        
+    </form>
 
     <footer class="main-footer">
         <a class="action"alt="Facebook"  target="_blank" href="https://fb.com/emersonmp"><img height="60" src="assets/img/facebook-512.png"></a>

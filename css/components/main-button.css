@@ -2,7 +2,10 @@
     background-color: #F25A70; 
     display: inline-block;
     height: 60px;
+    color: #fff;
+    font-size: 20px;
     line-height: 60px;
+    cursor: pointer;
     padding-left: 10x;
     padding-top: 9px;
     padding-bottom: 9x;
@@ -13,4 +16,7 @@
 .main-button:hover {
     transform: scale(1.08);
     opacity: 0.5;
+}
+.main-button.-full {
+    width: 100%;
 }
