@@ -24,6 +24,13 @@ function RedesSociais() {
           <a href="https://github.com/memeco">https://github.com/memeco</a> e{" "}
           <a href="https://memeco.github.io">https://memeco.github.io</a>
         </p>
+        <p>
+          Last.fm:{" "}
+          <a href="https://www.last.fm/user/memeco">
+            https://www.last.fm/user/memeco
+          </a>{" "}
+          e{" "}
+        </p>
       </div>
     </section>
   );
