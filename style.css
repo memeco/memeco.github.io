@@ -100,3 +100,6 @@ body {
     width: 400px;
     height: 220px;
   }
+  .english a:hover {
+    color: #FFF; text-decoration: underline;
+  }
