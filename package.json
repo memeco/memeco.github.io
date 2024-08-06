@@ -21,7 +21,7 @@
     "build": "CI=true react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "npm run build && cp Readme.md build && cp Emerson_Marques_Pedro_CV_2024-PTBr.pdf build && cp package.json build",
+    "predeploy": "npm run build && cp Readme.md build && cp Emerson_Marques_Pedro_CV_2024-PTBr.pdf build && cp package.json build && cp -r public build/public",
     "deploy": "gh-pages -d build -b gh-pages"
   },
   "eslintConfig": {
