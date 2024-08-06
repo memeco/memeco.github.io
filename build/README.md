@@ -1,3 +1,3 @@
-# https://memeco.github.io
+# https://www.memecoportfolio.com
 
-Meu portfólio.
+Meu portfólio feito em React e Boostrap.
