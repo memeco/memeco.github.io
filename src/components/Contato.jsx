@@ -14,10 +14,9 @@ function Contato() {
             title="emerson.pedro@alumni.usp.br"
             href="mailto:emerson.pedro@alumni.usp.br"
           >
-            emerson.pedro@alumni.usp.br
+            emerson.pedro[at]alumni.usp.br
           </a>{" "}
         </p>
-        
       </div>
     </section>
   );
