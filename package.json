@@ -22,7 +22,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build && cp Readme.md build && cp Emerson_Marques_Pedro_CV_2024-PTBr.pdf build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "deploy-github": "./deploy-github.sh"
   },
   "eslintConfig": {
     "extends": [
