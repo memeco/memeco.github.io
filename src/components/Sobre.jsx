@@ -16,10 +16,10 @@ function Sobre() {
         <br />
         <br />
         <p>
-          Meu nome é Emerson Marques Pedro, também conhecido como "Memeco",
-          tenho 37 anos e sou um Hacker Cívico, venci um hackathon do TCE-SP em
-          2015, recebendo o prêmio do então governador de São Paulo, Geraldo
-          Alckmin,{" "}
+          Meu nome é Emerson Marques Pedro, também conhecido como "
+          <a href="https://memeco.com.br">Memeco</a>", tenho 37 anos e sou um
+          Hacker Cívico, venci um hackathon do TCE-SP em 2015, recebendo o
+          prêmio do então governador de São Paulo, Geraldo Alckmin,{" "}
           <a href="https://i.imgur.com/1M9VA7B.jpg">
             sociólogo e cientista político pela USP
           </a>

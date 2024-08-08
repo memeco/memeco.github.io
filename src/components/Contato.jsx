@@ -8,15 +8,7 @@ function Contato() {
       <div className="container">
         <h2>Contato</h2>
 
-        <p>
-          Envie um e-mail para&nbsp;
-          <a
-            title="emerson.pedro@alumni.usp.br"
-            href="mailto:emerson.pedro@alumni.usp.br"
-          >
-            emerson.pedro[at]alumni.usp.br
-          </a>{" "}
-        </p>
+        <p>Envie um e-mail para emerson.pedro[at]alumni.usp.br</p>
       </div>
     </section>
   );
