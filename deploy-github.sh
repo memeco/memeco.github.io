@@ -13,10 +13,7 @@ git add .
 # Fazer commit com a mensagem especificada
 git commit -m "$COMMIT_MESSAGE"
 
-# Fazer push para o GitHub Pages
+# Fazer push para o repositório remoto
 git push origin $BRANCH
-
-# Fazer push para o Cloudflare Pages
-git push cloudflare $BRANCH
 
 echo "Deploy concluído com sucesso!"
