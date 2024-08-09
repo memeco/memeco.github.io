@@ -58,6 +58,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="Certificado Profissional de Análise de Dados do Google e Coursera"
+                title="Certificado Profissional de Análise de Dados do Google e Coursera"
               >
                 Certificado Profissional de Análise de Dados do Google e
                 Coursera.
@@ -73,6 +75,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="Certificado de conclusão do Bootcamp PcD para desenvolvedor Front-End com React e Bootstrap da SoulCode Academy"
+                title="Certificado de conclusão do Bootcamp PcD para desenvolvedor Front-End com React e Bootstrap da SoulCode Academy"
               >
                 Certificado de conclusão do Bootcamp PcD para desenvolvedor
                 Front-End com React e Bootstrap da SoulCode Academy.
@@ -88,6 +92,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="Meu inglês - 65/100 B2 Upper Intermediate por EF SET"
+                title="Meu inglês - 65/100 B2 Upper Intermediate por EF SET"
               >
                 Meu inglês - 65/100 B2 Upper Intermediate por EF SET.
               </a>
@@ -102,6 +108,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="Certificado Git e GitHub pela PcDWeb"
+                title="Certificado Git e GitHub pela PcDWeb"
               >
                 Certificado Git e GitHub pela PcDWeb.
               </a>
@@ -116,6 +124,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="Certificado de conclusão do Bootcamp PcD da Microsoft e SoulCode Academy sobre nuvem (Azure), Python e IA"
+                title="Certificado de conclusão do Bootcamp PcD da Microsoft e SoulCode Academy sobre nuvem (Azure), Python e IA"
               >
                 Certificado de conclusão do Bootcamp PcD da Microsoft e SoulCode
                 Academy sobre nuvem (Azure), Python e IA.
@@ -131,6 +141,8 @@ function Certificado() {
                 onMouseLeave={handleMouseLeave}
                 onClick={handleClick}
                 style={{ color: linkColor }}
+                alt="AI-900: Microsoft Certified Azure AI Fundamentals"
+                title="AI-900: Microsoft Certified Azure AI Fundamentals"
               >
                 AI-900: Microsoft Certified Azure AI Fundamentals
               </a>
