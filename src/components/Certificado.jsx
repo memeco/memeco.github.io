@@ -122,6 +122,20 @@ function Certificado() {
               </a>
             </p>
           </li>
+          <li>
+            <p>
+              Agosto de 2024 -{" "}
+              <a
+                href="https://imgur.com/gallery/ai-900-microsoft-certified-azure-ai-fundamentals-fb2IE4K"
+                onMouseEnter={handleMouseEnter}
+                onMouseLeave={handleMouseLeave}
+                onClick={handleClick}
+                style={{ color: linkColor }}
+              >
+                AI-900: Microsoft Certified Azure AI Fundamentals
+              </a>
+            </p>
+          </li>
         </ul>
       </div>
     </section>
