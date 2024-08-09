@@ -60,8 +60,8 @@ function Sobre() {
           passaporte dos 2 países.
         </p>
         <p>
-          Sou PcD, pois tenho esclerose múltipla (CID G 35). Por isso, uso
-          cadeira de rodas. ♿
+          Sou PcD, pois tenho esclerose múltipla (CID G 35). Por isso sou
+          cadeirante. ♿
         </p>
         <p>
           Aqui você pode encontrar alguns detalhes sobre meus projetos e
